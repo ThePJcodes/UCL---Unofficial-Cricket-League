@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "902007452528",
+    "project_id": "ucl-world",
+    "storage_bucket": "ucl-world.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902007452528:android:25e82e8fb883df233495b5",
+        "android_client_info": {
+          "package_name": "world.ucl.initial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902007452528-15li0gdfrbvm3auvc1rtevi1ebfme54t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiaKtl-zkP4pMjF-Dy8u36UcS9Ull-8dY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902007452528-15li0gdfrbvm3auvc1rtevi1ebfme54t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

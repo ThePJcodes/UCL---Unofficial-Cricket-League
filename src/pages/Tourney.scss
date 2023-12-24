@@ -1,0 +1,26 @@
+.cardTitle{
+    font-size:12vw;
+    text-align: center;
+    font-family: 'Bungee';
+    color: rgb(0, 0, 0);
+    margin: 10vw;
+    text-shadow:
+    0 0 7px #eb445a,
+    0 0 10px #eb445a,
+    0 0 21px #eb445a,
+    0 0 42px #eb445a,
+    0 0 82px #eb445a,
+    0 0 92px #eb445a,
+    //0 0 102px #eb445a,
+    //0 0 151px #eb445a;
+}
+
+.cards{
+    margin: 10vw 3vw;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #eb445a,
+            0 0 0.8rem #eb445a,
+            0 0 2.8rem #eb445a,
+            inset 0 0 1.3rem #eb445a; 
+}

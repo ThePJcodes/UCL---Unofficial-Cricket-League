@@ -1,0 +1,8 @@
+{
+  "name": "UCL World",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "809cda0d"
+}

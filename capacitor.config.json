@@ -1,0 +1,6 @@
+{
+	"appId": "world.ucl.initial",
+	"appName": "UCL World",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

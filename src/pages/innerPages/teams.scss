@@ -1,0 +1,61 @@
+.teamNames{
+    font-family: 'Bungee';
+    font-size: 7vw;
+    margin: 3vw;
+}
+
+#bckBtn{
+    position: fixed;
+}
+
+$base-spacing-unit: 24px;
+$half-spacing-unit: $base-spacing-unit / 2;
+
+$color-alpha: #1772FF;
+$color-form-highlight: #eb445a;
+
+
+table {
+	width:100%;
+	border:1px solid $color-form-highlight;
+    font-family: 'League Spartan';
+	table-layout: fixed;
+}
+
+th {
+    padding: 2vw;
+	width:100%;
+	background:#000;
+    font-size: 4vw;
+}
+
+	td{
+	    padding:1vw;
+		width:25%;
+	    align-items: center;
+	    justify-content: center;
+		text-align: center;
+	    font-size: 4vw;
+	}
+
+tr{
+	width:100%;
+	// padding:($half-spacing-unit * 1.5) 0;
+	
+	&:nth-of-type(odd) {
+		background:$color-form-highlight;
+	}
+}
+
+.table-data, .header__item {
+	flex: 1 1 20%;
+	text-align:center;
+}
+
+.tableName{
+	width: 20%;
+}
+
+.header__item {
+	text-transform:uppercase;
+}

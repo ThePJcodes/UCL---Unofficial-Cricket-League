@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap');
+
+ion-slides{
+    width: 100%;
+    height: auto;
+    margin: 2vw;
+    padding: 2vw;
+}
+
+ion-slide{
+    margin:2vw;
+}
+
+#listCard   {
+    display: flex;
+    flex-direction: row;
+}
+
+.chipCard{
+    display: flex;
+    flex-direction: column;
+    ion-chip{
+        margin: 2vw;
+        ion-label{
+            align-self: center;
+            justify-self: center;
+            font-size: 4vw;
+            font-family: 'Neuton';
+            letter-spacing: 0.75vw;
+            text-align: center;
+            font-weight: bold;
+        }
+    }
+    font-size: 2vw;
+}
+
+ion-item{
+    background-color: #999;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+ion-text{
+    font-family: 'League Spartan';
+}
+
