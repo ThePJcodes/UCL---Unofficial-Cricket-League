@@ -1,0 +1,8 @@
+{
+  "name": "UCL Umpires",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "3b14c263"
+}

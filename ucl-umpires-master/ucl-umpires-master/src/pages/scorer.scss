@@ -1,0 +1,52 @@
+#scoreCard{
+    display: flex;
+    align-items: flex-end;
+    font-family: 'oswald';
+
+    .upper{
+        font-size: 10vw;
+    }
+
+    .lower{
+        margin: 2vw;
+        font-size: 5vw;
+        align-self: flex-end;
+        justify-self: flex-end;
+    }
+}
+
+#scoreButtons{
+    display: flex;
+    flex-wrap: wrap;
+
+    ion-fab-button{
+        font-size: 7vw;
+        margin: 3vw;
+        font-family: 'Bungee';
+    }
+}
+
+#wicketLabel{
+    font-family: 'oswald';
+    font-size: 8vw;
+    margin: 3vw;
+
+    display: flex;
+    align-items: center;
+
+    ion-checkbox{
+        margin:2vw;
+    }
+}
+
+ion-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+}
+
+#targ{
+    font-size: 5vw;
+    font-family: 'oswald';
+}

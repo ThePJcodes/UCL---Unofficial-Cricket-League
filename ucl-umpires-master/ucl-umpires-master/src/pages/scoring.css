@@ -1,0 +1,160 @@
+ion-card{
+    margin: 1vw;
+}
+
+ion-item{
+    padding: 0;
+    margin: 0;
+}
+
+.scoreSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'League Spartan';
+}
+
+.scoreSection > ion-card-header{
+    font-family: 'Oswald';
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreSection > ion-card-content{
+    font-size: 8vw;
+}
+
+.scoreSection > ion-card-content > .scoreSectionContent1{
+    display: flex;
+    justify-content: space-between;
+    font-size:8vw;
+}
+
+.scoreSection > ion-card-content > .scoreSectionContent1 > div > ion-text{
+    font-size: 4vw;
+}
+
+.scoreSectionContent2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size:4vw;
+}
+
+.scoreContentHeader1{
+    display: flex;
+    align-content: space-between;
+    font-size: 4vw;
+    justify-content: center;
+    font-family: 'Oswald';
+}
+
+.scoreContentHeader2{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    font-size: 4vw;
+    font-family: 'Oswald';
+}
+
+.scoreContentHeader2 > div{
+    margin:0 1.5vw;
+}
+
+.scoreContentHeader1 > div{
+    margin: 0 2vw;
+}
+
+
+.scoreContentHeader2 > div > div{
+    text-align: center;
+}
+
+#overCard{
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'League Spartan';
+    font-weight: bold;
+
+}
+
+#overHolder{
+    overflow-x: scroll;
+    display: flex;
+    font-family: 'Oswald';
+}
+
+.overBalls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    /* overflow-x: hidden; */
+}
+
+#num0{
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0 1vw;
+}
+
+#numOut{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(255, 56, 56);
+    border-radius: 50%;
+    display: inline-block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin: 0 1vw;
+}
+
+
+#overLabel{
+    font-size: 2vw;
+    height: 2vw;
+    margin: 0.5vw;
+}
+
+#propSelection{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 0;
+    font-size: 5vw;
+    font-family: 'Oswald';
+}
+
+#propSelection > div{
+    display: flex;
+    align-items: center;
+}
+#runsCard{
+    display: flex;
+}
+
+#runsCardContent{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Oswald';
+
+}
+
+#runsCardContent> ion-fab-button{
+    font-size: 5vw;
+    margin: 2vw;
+}
